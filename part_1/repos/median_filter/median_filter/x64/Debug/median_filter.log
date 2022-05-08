@@ -1,0 +1,27 @@
+﻿  
+  C:\Users\NN00067\source\repos\median_filter\median_filter>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\median_filter_CUDA.cu.obj "C:\Users\NN00067\source\repos\median_filter\median_filter\median_filter_CUDA.cu" -clean 
+  median_filter_CUDA.cu
+  Compiling CUDA source file median_filter_CUDA.cu...
+  
+  C:\Users\NN00067\source\repos\median_filter\median_filter>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\median_filter_CUDA.cu.obj "C:\Users\NN00067\source\repos\median_filter\median_filter\median_filter_CUDA.cu" 
+  median_filter_CUDA.cu
+C:/Users/NN00067/source/repos/median_filter/median_filter/median_filter_CUDA.cu(98): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:/Users/NN00067/source/repos/median_filter/median_filter/median_filter_CUDA.cu(98): warning C4244: 'initializing': conversion from 'double' to 'const int', possible loss of data
+C:/Users/NN00067/source/repos/median_filter/median_filter/median_filter_CUDA.cu(100): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+  bitmap_image.cpp
+c:\users\nn00067\source\repos\median_filter\median_filter\bitmap_image.cpp(146): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\nn00067\source\repos\median_filter\median_filter\bitmap_image.cpp(352): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\nn00067\source\repos\median_filter\median_filter\bitmap_image.cpp(860): warning C4244: '=': conversion from 'double' to 'BYTE', possible loss of data
+c:\users\nn00067\source\repos\median_filter\median_filter\bitmap_image.cpp(868): warning C4244: '=': conversion from 'double' to 'BYTE', possible loss of data
+c:\users\nn00067\source\repos\median_filter\median_filter\bitmap_image.cpp(869): warning C4244: '=': conversion from 'double' to 'BYTE', possible loss of data
+c:\users\nn00067\source\repos\median_filter\median_filter\bitmap_image.cpp(870): warning C4244: '=': conversion from 'double' to 'BYTE', possible loss of data
+  main.cpp
+  median_filter_CPU.cpp
+  Generating Code...
+  median_filter.vcxproj -> C:\Users\NN00067\source\repos\median_filter\x64\Debug\median_filter.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\cudart*.dll" "C:\Users\NN00067\source\repos\median_filter\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\cudart32_100.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\cudart64_100.dll
+          2 file(s) copied.

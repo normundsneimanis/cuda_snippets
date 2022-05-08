@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_08_metal", "raytracing_08_metal\raytracing_08_metal.vcxproj", "{A0A70B63-02BB-4AAE-871B-7C875F36BBF1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_09_dielectrics", "raytracing_09_dielectrics\raytracing_09_dielectrics.vcxproj", "{F8A53093-AA73-487D-BFC4-F3316151C890}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_10_camera", "raytracing_10_camera\raytracing_10_camera.vcxproj", "{ED9953FD-EE51-4AF5-8540-E11BE4712A41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_11_defocus_blur", "raytracing_11_defocus_blur\raytracing_11_defocus_blur.vcxproj", "{B4CC621D-61DD-49DD-9E4F-FA9A53E406F4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_12_final", "raytracing_12_final\raytracing_12_final.vcxproj", "{7C0934E5-7043-4645-BA1A-A73101003D87}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_01_output", "raytracing_01_output\raytracing_01_output.vcxproj", "{F5F3FDBE-7568-4BF0-B2C3-CC211C36ABAD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_02_vec3", "raytracing_02_vec3\raytracing_02_vec3.vcxproj", "{607B7368-588C-4047-8235-D5C085B505A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_03_rays", "raytracing_03_rays\raytracing_03_rays.vcxproj", "{56009840-8001-4117-A4B0-50C65A832E02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_04_sphere", "raytracing_04_sphere\raytracing_04_sphere.vcxproj", "{4B485B62-3C4D-411D-B40E-923882BE03A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_05_normals", "raytracing_05_normals\raytracing_05_normals.vcxproj", "{818F5B99-6133-40B1-B377-74E87BC83959}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_06_antialiasing", "raytracing_06_antialiasing\raytracing_06_antialiasing.vcxproj", "{08817919-2A9A-4157-BFCB-A99D116ADFB1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "raytracing_07_diffuse", "raytracing_07_diffuse\raytracing_07_diffuse.vcxproj", "{1A5F3275-DB6E-480E-B14C-8A28B7B1AEEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0A70B63-02BB-4AAE-871B-7C875F36BBF1}.Debug|x64.ActiveCfg = Debug|x64
+		{A0A70B63-02BB-4AAE-871B-7C875F36BBF1}.Debug|x64.Build.0 = Debug|x64
+		{A0A70B63-02BB-4AAE-871B-7C875F36BBF1}.Release|x64.ActiveCfg = Release|x64
+		{A0A70B63-02BB-4AAE-871B-7C875F36BBF1}.Release|x64.Build.0 = Release|x64
+		{F8A53093-AA73-487D-BFC4-F3316151C890}.Debug|x64.ActiveCfg = Debug|x64
+		{F8A53093-AA73-487D-BFC4-F3316151C890}.Debug|x64.Build.0 = Debug|x64
+		{F8A53093-AA73-487D-BFC4-F3316151C890}.Release|x64.ActiveCfg = Release|x64
+		{F8A53093-AA73-487D-BFC4-F3316151C890}.Release|x64.Build.0 = Release|x64
+		{ED9953FD-EE51-4AF5-8540-E11BE4712A41}.Debug|x64.ActiveCfg = Debug|x64
+		{ED9953FD-EE51-4AF5-8540-E11BE4712A41}.Debug|x64.Build.0 = Debug|x64
+		{ED9953FD-EE51-4AF5-8540-E11BE4712A41}.Release|x64.ActiveCfg = Release|x64
+		{ED9953FD-EE51-4AF5-8540-E11BE4712A41}.Release|x64.Build.0 = Release|x64
+		{B4CC621D-61DD-49DD-9E4F-FA9A53E406F4}.Debug|x64.ActiveCfg = Debug|x64
+		{B4CC621D-61DD-49DD-9E4F-FA9A53E406F4}.Debug|x64.Build.0 = Debug|x64
+		{B4CC621D-61DD-49DD-9E4F-FA9A53E406F4}.Release|x64.ActiveCfg = Release|x64
+		{B4CC621D-61DD-49DD-9E4F-FA9A53E406F4}.Release|x64.Build.0 = Release|x64
+		{7C0934E5-7043-4645-BA1A-A73101003D87}.Debug|x64.ActiveCfg = Debug|x64
+		{7C0934E5-7043-4645-BA1A-A73101003D87}.Debug|x64.Build.0 = Debug|x64
+		{7C0934E5-7043-4645-BA1A-A73101003D87}.Release|x64.ActiveCfg = Release|x64
+		{7C0934E5-7043-4645-BA1A-A73101003D87}.Release|x64.Build.0 = Release|x64
+		{F5F3FDBE-7568-4BF0-B2C3-CC211C36ABAD}.Debug|x64.ActiveCfg = Debug|x64
+		{F5F3FDBE-7568-4BF0-B2C3-CC211C36ABAD}.Debug|x64.Build.0 = Debug|x64
+		{F5F3FDBE-7568-4BF0-B2C3-CC211C36ABAD}.Release|x64.ActiveCfg = Release|x64
+		{F5F3FDBE-7568-4BF0-B2C3-CC211C36ABAD}.Release|x64.Build.0 = Release|x64
+		{607B7368-588C-4047-8235-D5C085B505A5}.Debug|x64.ActiveCfg = Debug|x64
+		{607B7368-588C-4047-8235-D5C085B505A5}.Debug|x64.Build.0 = Debug|x64
+		{607B7368-588C-4047-8235-D5C085B505A5}.Release|x64.ActiveCfg = Release|x64
+		{607B7368-588C-4047-8235-D5C085B505A5}.Release|x64.Build.0 = Release|x64
+		{56009840-8001-4117-A4B0-50C65A832E02}.Debug|x64.ActiveCfg = Debug|x64
+		{56009840-8001-4117-A4B0-50C65A832E02}.Debug|x64.Build.0 = Debug|x64
+		{56009840-8001-4117-A4B0-50C65A832E02}.Release|x64.ActiveCfg = Release|x64
+		{56009840-8001-4117-A4B0-50C65A832E02}.Release|x64.Build.0 = Release|x64
+		{4B485B62-3C4D-411D-B40E-923882BE03A4}.Debug|x64.ActiveCfg = Debug|x64
+		{4B485B62-3C4D-411D-B40E-923882BE03A4}.Debug|x64.Build.0 = Debug|x64
+		{4B485B62-3C4D-411D-B40E-923882BE03A4}.Release|x64.ActiveCfg = Release|x64
+		{4B485B62-3C4D-411D-B40E-923882BE03A4}.Release|x64.Build.0 = Release|x64
+		{818F5B99-6133-40B1-B377-74E87BC83959}.Debug|x64.ActiveCfg = Debug|x64
+		{818F5B99-6133-40B1-B377-74E87BC83959}.Debug|x64.Build.0 = Debug|x64
+		{818F5B99-6133-40B1-B377-74E87BC83959}.Release|x64.ActiveCfg = Release|x64
+		{818F5B99-6133-40B1-B377-74E87BC83959}.Release|x64.Build.0 = Release|x64
+		{08817919-2A9A-4157-BFCB-A99D116ADFB1}.Debug|x64.ActiveCfg = Debug|x64
+		{08817919-2A9A-4157-BFCB-A99D116ADFB1}.Debug|x64.Build.0 = Debug|x64
+		{08817919-2A9A-4157-BFCB-A99D116ADFB1}.Release|x64.ActiveCfg = Release|x64
+		{08817919-2A9A-4157-BFCB-A99D116ADFB1}.Release|x64.Build.0 = Release|x64
+		{1A5F3275-DB6E-480E-B14C-8A28B7B1AEEA}.Debug|x64.ActiveCfg = Debug|x64
+		{1A5F3275-DB6E-480E-B14C-8A28B7B1AEEA}.Debug|x64.Build.0 = Debug|x64
+		{1A5F3275-DB6E-480E-B14C-8A28B7B1AEEA}.Release|x64.ActiveCfg = Release|x64
+		{1A5F3275-DB6E-480E-B14C-8A28B7B1AEEA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C6439A-CC45-4CF1-9C19-21A8920F949C}
+	EndGlobalSection
+EndGlobal

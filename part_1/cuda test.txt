@@ -1,0 +1,25 @@
+# Elapsed time on GPU
+
+	cudaEvent_t start, stop;
+
+	cudaEventCreate(&start);
+	cudaEventCreate(&stop);
+	cudaEventRecord(start, 0);
+	
+	// do work
+
+	cudaEventRecord(stop, 0);
+    cudaEventSynchronize(stop);	
+	float elapsedTime;
+	cudaEventElapsedTime(&elapsedTime, start, stop);
+	cout << "---------------------" << endl;
+	cout << "Elapsed Harris algorithm execution time on GPU: " << elapsedTime << " milliseconds" << endl;
+	cout << "---------------------" << endl;
+	cudaEventDestroy(start);
+	cudaEventDestroy(stop);
+	
+# MAX blocks and cores
+	cudaDeviceProp dp;
+	cudaGetDeviceProperties(&dp, 0);
+	cout << "Max threads per block	: " << dp.maxThreadsPerBlock << endl;
+	cout << "Multiprocessor count	: " << dp.multiProcessorCount << endl;

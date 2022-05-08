@@ -1,0 +1,13 @@
+qsub -I -l nodes=1:ppn=1:gpus=1,feature=k40
+module avail cuda
+module load cuda/cuda-8.0
+
+nvcc -g -G add.cu -o add
+
+nvcc -g -G add.cu -o add -gencode=arch=compute_35,code=sm_35
+
+
+cuda-gdb add
+
+ddd
+
